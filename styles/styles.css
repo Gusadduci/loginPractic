@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300;400;600;700&display=swap');
+
+.mainContainer {
+    background: linear-gradient(20deg,rgb(153, 153, 153),rgb(179, 179, 179),rgb(209, 208, 208),rgb(236, 236, 236),rgb(255, 255, 255),white);
+    min-height: 100vh; /*-- Viewport heigth */
+    font-family: 'Kulim Park', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper {
+    background-color: white;
+
+    width: 100%;
+    max-width: 800px;
+
+    display: flex;
+    
+}
+
+.login-wrapper .formContainer {
+    width: 100%;
+    max-width: 350px;
+    min-height: 450px;
+    background-color: #f5f5f5;
+}
+
+.login-wrapper .formContainer .formHeader {
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    
+}
+
+.login-wrapper .formContainer .formHeader a{
+    text-decoration: none;
+    color: rgb(118,122,127);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.login-wrapper .formContainer .formContent{
+    padding: 20px 60px;
+
+}
+
+.login-wrapper .formContainer .formContent .margin.bold {
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+    line-height: 0px;  
+}
+
+.login-wrapper .formContainer .formContent .margin {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: rgb(107, 107, 107);
+    line-height: 18px; 
+}
+
+.login-wrapper .formContainer .formContent input{
+    border: none;
+    padding: 5px;
+    width: 100%;
+    font-size: 9px;
+    background-color: rgb(235, 235, 235);
+}
+
+.login-wrapper .formContainer .formContent .none {
+    text-decoration: none;
+}
+
+.login-wrapper .formContainer .formContent .margin-pasword{
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 10.2px;
+}
+
+.login-wrapper .formContainer .formContent .margin-buttom{
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgb(68,149,170);
+    border-radius: 30px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+}
+.login-wrapper .formContainer .formContent .br-margin{
+    margin-bottom: 20px;
+}
+.login-wrapper .formContainer .formContent .center {
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+.login-wrapper .formContainer .formContent .loginWith{
+    text-align: center;
+    color: rgb(68,149,170);
+}
+.login-wrapper .formContainer .formContent .loginWith a{
+    color: rgb(68,149,170);
+    margin: 0 7px;
+}
+
+
+
+
+
+
+
+.login-wrapper .imageContainer {
+    background-image: url(https://images.unsplash.com/photo-1598967060974-15d9f65855be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+
+.login-wrapper .imageContainer .hr-image{
+    margin-bottom: 98px;
+    margin-right: 15px;
+    width: 27px;
+    height: 20px;
+    
+}
+.login-wrapper .imageContainer .textContent{
+    min-height: 20px;
+    width: 240px;
+    margin-bottom: 60px;
+    
+}
+
+.login-wrapper .imageContainer .textContent h1{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.login-wrapper .imageContainer .textContent span{
+    font-size: 12px;
+}
